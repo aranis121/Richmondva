@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css?family=Khand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+/**************************88global**************************/
+
+html,
+body {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 1rem;
+}
+
+section {
+    padding: 45px 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2:before {
+    content: "";
+    width: 150px;
+    height: 4px;
+    /*background: #0e092b;*/
+    border-top: 1px solid #0e092b;
+    border-bottom: 2px solid #0e092b;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+h2:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #000;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 7px;
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari 3-8 */
+    transform: rotate(45deg);
+}
+.alt {
+    color: white;
+    position: relative;
+}
+.alt:before{
+    
+     /* border-top: 1px solid #0e092b;*/
+   /* border-bottom: 2px solid #0e092b;*/
+    border-top-color: white;
+    border-bottom-color: white;
+}
+.alt:after{
+    background-color: white;
+}
+
+
+/**************************global**************************/
+
+.header {
+    padding: 115px 0;
+    background-image: url(../images/bitcoin-3510168_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, .60);
+}
+
+
+/****************************menu section start**************************/
+
+.menuber {
+    padding: 0 50px;
+    background-color: rgba(250, 100, 100, 0.9);
+    box-shadow: 3px 0 5px 3px #D6DE23;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Khand', sans-serif;
+    color: #fff !important;
+    width: 20%;
+}
+
+.navbar-brand p {
+    font-size: 0.84rem;
+    margin-top: -5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand img {
+    width: 25%;
+}
+
+.navbar {
+    background: rgba(10, 10, 10, 0.6);
+    -webkit-transition: width 2s;
+    /* Safari */
+    transition: width 2s;
+    padding: 0 15px;
+}
+
+.nav-item a {
+    color: #fff !important;
+}
+
+.navbar button {
+    background-color: #D6DE23;
+    color: #000;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.navbar button:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.navbar-nav .nav-link.active {
+    background: #2689BC !important;
+}
+
+.nav-item:hover {
+    background-color: #D6DE23;
+    color: black;
+}
+
+
+/**************************menu section start**************************/
+
+.headee-details {
+    position: relative;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.headee-details h1 span {
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 15px;
+}
+
+.headee-details ul li {
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.headee-details ul li span {
+    color: white;
+    font-size: 20px;
+}
+
+.headee-details h2 {
+    color: white;
+    padding: 0 15px 30px 15px;
+}
+
+.headee-details button {
+    background-color: #D6DE23;
+}
+
+
+/*service section start*/
+
+.service {
+    text-align: center;
+}
+
+.service h2 {}
+
+.service p {
+    padding: 0 0 20px 0;
+}
+
+.service h5 {
+    font-weight: bold;
+}
+
+.service_icon {
+   margin: 0 auto;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 30px 0;
+}
+
+.service_icon:hover, .service_icon.active  {
+    background-color: #D6DE23;
+}
+
+.btn {
+    font-weight: bold;
+    background-color: #D6DE23;
+}
+
+.btn:hover {
+    background-color: #D6Da23;
+    color: red;
+}
+
+
+/*service section end*/
+
+
+/*contact section star*/
+
+.contact {
+    text-align: center;
+    background-image: url(../images/bitcoin-4205661_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.contact:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, .60);
+}
+
+
+
+.subs-form {
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgba(0, 0, 0, .60);
+    padding: 20px 15px;
+    color: white;
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+
+/*contact section end*/
+
+.about {
+    padding-bottom: 0;
+}
+
+.abouts_details {
+    padding: 40px 0 0 0;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about_rightside {
+    padding: 20px 25px;
+}
+
+.about_rightside h4 {}
+
+.about_rightside ul li i {
+    color: #D6DE23;
+    padding: 0 10px;
+}
+
+.about_rightside ul {
+    padding: 0;
+}
+
+.about_rightside ul li {
+    padding: 10px 0;
+    color: black;
+}
+
+
+/*about section end*/
+
+.features {
+    padding-top: 0;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.features_details {
+    padding: 45px 0 100px 0;
+    text-align: center;
+    background-color: #D6Da23;
+}
+
+.features_details p {
+    padding: 0 15px;
+}
+
+.features i {
+    margin: -70px 10% 5% 10%;
+    padding: 10%;
+    border: 6px solid white;
+    border-radius: 50%;
+    background-color: #D6Da23;
+}
+
+
+/*why_choose section start*/
+
+.why_choose {
+    background-color: #F2F4EC;
+}
+
+.why_choose h2,
+.why_choose p {
+    text-align: center;
+}
+
+.why_choose img {
+    width: 18%;
+}
+
+.why_choose h5 {
+    font-weight: bold;
+}
+
+.media {
+    padding: 30px;
+}
+
+
+/*why choose section end*/
+
+.testimonial {}
+
+.testimonial h2,
+.testimonial p {
+    text-align: center;
+}
+
+.testimonial_details p {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.testmonial img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+
+/*give_us_call section start*/
+
+.give_us_call {
+    text-align: center;
+    /*padding: 250px 0;*/
+    background-image: url(../images/bitcoin-2007912_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.give_us_call:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, .60);
+}
+
+.give_us_call_details {
+    position: relative;
+    color: white;
+}
+
+.give_us_call_details p {
+    padding: 0 10px;
+}
+
+.give_us_call_details i {
+    padding: 15px;
+    font-size: 20px;
+    color: #D6Da55;
+}
+
+.give_us_call_details h6 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+/*price section start*/
+
+.price {
+    text-align: center;
+}
+
+.price p {
+    padding-bottom: 25px;
+}
+
+table.blueTable {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.blueTable td,
+table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 10px 5px;
+}
+
+table.blueTable tbody td {
+    font-size: 13px;
+}
+
+table.blueTable tr:nth-child(even) {
+    background: #D6Da55;
+}
+
+table.blueTable thead {
+    background: #D6Da23;
+    border-bottom: 2px solid #444444;
+}
+
+table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: bold;
+    color: #001;
+    border-left: 2px solid #D0E4F5;
+}
+
+table.blueTable thead th:first-child {
+    border-left: none;
+}
+
+table.blueTable tfoot td {
+    font-size: 14px;
+}
+
+table.blueTable tfoot .links {
+    text-align: right;
+}
+
+table.blueTable tfoot .links a {
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+
+/*footer section start*/
+
+.footer {
+    background-image: url(../images/bitcoin-3510168_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 0;
+    background-attachment: fixed;
+}
+
+.footer:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, .60);
+}
+
+.footer_details {
+    position: relative;
+    color: white;
+}
+
+.footer_details i {
+    font-size: 60px;
+}
+
+.footer_details h6 {
+    font-size: 17px;
+}
+
+.footer_details ul {
+    padding: 25px 0 25px 0;
+}
+
+.footer_details ul li {
+    font-size: 12px;
+    padding: 3px;
+}
+
+.footer_addres ul li i {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.footer_addres i {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footer-bottom {
+    position: relative;
+    background: #ccc;
+    text-align: center;
+    padding: 20px 20px;
+}
+.footer-bottom i{
+    float: right;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #D6DE23;
+}
